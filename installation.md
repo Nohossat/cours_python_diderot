@@ -53,7 +53,7 @@ Cliquez sur **Windows installer (64-bit)** et suivez les instructions. Lors de l
 
 ![python39_install](imgs/python3.9_windows.png)
 
-Comme pour Ubuntu et macOs, vous pouvez vérifier la présence de Python et pip avec les commandes `python -V` et `pip -V`.
+Comme pour Ubuntu et macOS, vous pouvez vérifier la présence de Python et pip avec les commandes `python -V` et `pip -V`.
 
 ## <a name="envs"></a> Environnements virtuels
 
@@ -78,14 +78,14 @@ mkdir python_diderot && cd python_diderot
 pipenv shell
 ```
 
-La dernière commande créera un environnement virtuel, s'il n'existe pas. Deux fichiers seront créer à la racine de votre dossier **Pipfile** et **Pipfile.lock**.
+La dernière commande créera un environnement virtuel, s'il n'existe pas. Deux fichiers seront créés à la racine de votre dossier **Pipfile** et **Pipfile.lock**.
 
 - **Pipfile** : gère l'ensemble de vos dépendances en phase de développement et de production
-- **Pipfile.lock** : dans le cas de l'export de votre projet, ce fichier indique les versions à utiliser pour chaque dépendance. Dans le cas de mises à jour des modules, votre projet continuera d'installer les versions permettant son bon fonctionnement. 
+- **Pipfile.lock** : dans le cas de l'export de votre projet, ce fichier indique les versions à utiliser pour chaque dépendance. Dans le cas de mises à jour des modules externes, votre projet préconisera l'installation des versions indiquées dans ce fichier, permettant le bon fonctionnement du programme. 
 
 En lançant la commande `pipenv shell` vous devriez voir la localisation de l'environnement sur votre ordinateur.
 
-Pour ajouter un module à votre environnement, il suffit de lancer la commande `pipenv install nom_package`. 
+Pour ajouter un module à votre environnement, il suffit de lancer la commande `pipenv install nom_module`. 
 
 Pour désactiver un environnement, `pipenv exit`.
 
@@ -110,9 +110,9 @@ virtualenv venv
 
 **venv** est le nom par défaut de votre environnement. Un dossier du même nom sera créé à la racine de votre dossier. 
 
-Pour activer votre environnement, lancer la commande `venv\Scripts\activate` si vous êtes sous Windows sinon `source venv/bin/activate.bat`.
+Pour activer votre environnement, lancer la commande `venv\Scripts\activate` sous Windows sinon `source venv/bin/activate.bat` (Unix).
 
-Vous devriez voir l'environnement actif si son nom apparaît, entouré de parenthèses dans le terminal.
+L'environnement est actif si son nom apparaît, entouré de parenthèses dans le terminal.
 
 Pour installer / désintaller des modules, utilisez `pip install` / `pip uninstall`. 
 
@@ -122,6 +122,6 @@ Vous pouvez supprimer un environnement, en supprimant le dossier **venv**.
 
 ### <a name="jupyter"></a>Installation de JupyterLab
 
-Si vous avez un environnement pipenv, lancer la commande `pipenv install jupyterlab` sinon `pip install jupyterlab`.
+Si vous avez un environnement pipenv, lancer la commande `pipenv install jupyterlab` sinon `pip install jupyterlab` (pour virtualenv).
 
-JupyterLab est la nouvelle interface web développé par le projet Jupyter. Elle permet de gérer des notebooks Jupyter (documents mêlant code, texte enrichi, images, graphiques, etc..). Les notebooks sont très utiles pour l'analyse exploratoire de données et le travail de recherche. Nous les utiliserons pour la suite des cours pour nous familiariser aux différentes commandes et aussi par la grande intéractivité qu'ils offrent.
+JupyterLab est la nouvelle interface web développé par le projet Jupyter. Elle permet de gérer des notebooks Jupyter (documents mêlant code, texte enrichi, images, graphiques, etc..). Les notebooks sont très utiles pour l'analyse exploratoire de données et le travail de recherche. Nous les utiliserons pour la suite des cours pour nous familiariser avec les différentes commandes de l'outil et profiter de l'intéractivité qu'ils offrent.
