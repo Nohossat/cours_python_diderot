@@ -22,4 +22,4 @@ Il s'agit de quelques questions de cours. Ces interros sont aussi le moyen de vo
 
 ## Pédagogie
 
-Un ou deux notebooks par session, à traiter en binôme. Des points réguliers seront faits en groupe ou par binôme. Les notebooks peuvent être longs à traiter, l'objectif étant d'introduire le sujet pendant la session et d'approfondir les nouveaux concepts entre deux cours. 
+Un ou deux notebooks par session, à traiter en binôme. Des points réguliers sont prévus en groupe ou par binôme. Les notebooks peuvent être longs à traiter, l'objectif étant d'introduire le sujet pendant la session et d'approfondir les nouveaux concepts entre deux cours. 
