@@ -3,12 +3,12 @@
 ## Calendrier
 
 - 12/02 : Introduction + Types en Python
-- 26/02 : Types complexes + Structures de contrôle
-- 12/03 : Expressions régulières
+- 26/02 : Types complexes
+- 12/03 : Structures de contrôle
 - 26/03 : Programmation fonctionnelle + Gestion des fichiers
-- 09/04 : Programmation orientée-objet
-- 07/05 : Bibliothèques dédiées à l'analyse de données
-- 21/05 : Modules standards + Révisions
+- 09/04 : Expressions régulières
+- 07/05 : Programmation orientée-objet
+- 21/05 : Modules standards + Bibliothèques dédiées à l'analyse de données
 - 04/06 : Partiel
 
 ## Notes
